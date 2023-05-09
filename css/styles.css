@@ -38,8 +38,6 @@ img {
 }
 .header-inner {
     margin: auto;
-    padding: 34px;
-    width: var(--section-width);
     position: relative;
     height: 79px;
 }
