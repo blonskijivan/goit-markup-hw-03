@@ -3,7 +3,7 @@
   --secondary-cl: #2E2F42;
   --active-cl: #4D5AE5;
   --active-cl2: #404BBF;
-
+  --light-gray-border-color: #e7e9fc;
   --primary-white-color: #ffffff;
   --main-dark-bg-color: #2E2F42;
   --light-gray-color: #F4F4FD;
@@ -341,7 +341,7 @@ footer .logo span {
     padding: 12px 24px;
     height: 48px;
     background: #F4F4FD;
-    border: 1px solid #e7e9fc;
+    border: 1px solid var(--light-gray-border-color);
     border-radius: 4px;
     font-family: 'Roboto';
     font-style: normal;
