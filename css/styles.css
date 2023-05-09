@@ -176,7 +176,7 @@ img {
     clip-path: inset(50%);
     margin: -1px;
   } 
-.features-list {
+.feature-list {
     display: flex;
     margin: 0;
     padding: 0;
@@ -185,10 +185,9 @@ img {
 }
 .features-item {
     width: calc((100% - 72px) / 4);
-    text-align: left;
 }
 .features-title {
-    margin-bottom: 8px;
+    margin: 0 0 8px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
