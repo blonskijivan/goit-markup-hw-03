@@ -184,24 +184,8 @@ img {
     gap: 24px;
 }
 .features-item {
-    width: 264px;
+    width: calc((100% - 72px) / 4);
     text-align: left;
-}
-.features-item:first-child {
-    margin-right: 24px;
-    width: calc((100% - 72px) / 4);
-}
-.features-item:nth-child(2) {
-    margin-right: 24px;
-    width: calc((100% - 72px) / 4);
-}
-.features-item:nth-child(3) {
-    margin-right: 24px;
-    width: calc((100% - 72px) / 4);
-}
-.features-item:nth-child(4) {
-    margin-right: 0px;
-    width: calc((100% - 72px) / 4);
 }
 .features-title {
     margin-bottom: 8px;
