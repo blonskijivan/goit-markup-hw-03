@@ -101,6 +101,7 @@ img {
     gap: 40px;
 }
 .contact-info-link {
+    display: flex;
     text-decoration: none;
     font-family: 'Roboto';
     font-style: normal;
@@ -109,6 +110,7 @@ img {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--main-cl);
+    gap: 40px;
 }
 .contact-info-link:hover,
 .contact-info-link:focus  {
@@ -188,15 +190,19 @@ img {
     text-align: left;
 }
 .features-item:first-child {
+    margin-right: 24px;
     width: calc((100% - 72px) / 4);
 }
 .features-item:nth-child(2) {
+    margin-right: 24px;
     width: calc((100% - 72px) / 4);
 }
 .features-item:nth-child(3) {
+    margin-right: 24px;
     width: calc((100% - 72px) / 4);
 }
 .features-item:nth-child(4) {
+    margin-right: 0px;
     width: calc((100% - 72px) / 4);
 }
 .features-title {
@@ -357,8 +363,14 @@ footer .logo span {
 .projects .filter li {
     margin: 0 12px 0 8px;
     display: inline-block;
+    border: 1px solid transparent;
 }
-.projects-filter-button {
+.projects-filter-button,
+.projects .filter li:nth-child(1) button,
+.projects .filter li:nth-child(2) button,
+.projects .filter li:nth-child(3) button,
+.projects .filter li:nth-child(4) button,
+.projects .filter li:nth-child(5) button {
     padding: 12px 24px;
     height: 48px;
     background: #F4F4FD;
@@ -375,9 +387,15 @@ footer .logo span {
     letter-spacing: 0.04em;
     color: #4D5AE5;
 }
-.projects-filter-button.active,
-.projects-filter-button:hover,
+.projects-filter-button:hover {
+    border: 1px solid transparent;
+}
 .projects-filter-button:focus {
+    border: 1px solid transparent;
+}
+.projects-filter-button.active,
+.projects .filter li:nth-child(1) button.active {
+    border: 1px solid transparent;
     background: var(--active-cl2);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     color: var(--primary-white-color);
@@ -402,7 +420,7 @@ footer .logo span {
     display: block;
     margin: 0 -24px 20px;
 }
-.project-title {
+.project-title {    
     margin: 0 0 4px;
     color: var(--secondary-cl);
     font-family: 'Roboto';
