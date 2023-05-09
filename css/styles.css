@@ -176,7 +176,8 @@ img {
     clip-path: inset(50%);
     margin: -1px;
   } 
-.feature-list {
+  
+.features-list {
     display: flex;
     margin: 0;
     padding: 0;
